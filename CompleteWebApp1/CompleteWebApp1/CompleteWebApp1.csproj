@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\background.jpg" />
+    <None Include="wwwroot\Images\nasaLogo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
